@@ -1,0 +1,95 @@
+
+Uso Interno para la propia clínicas (Para usuario de la clínicas) 
+
+Funciones de La Aplicación
+
+
+
+Empezamos con 1pacientes por que es el flujo de la operación que afecta al proyecto final 
+
+
+Módulos 
+
+Home , Bitácora , Pacientes , control , psicología 
+
+
+
+Home: Aparecen apartados  de Pre Registro con su formulario , Pendientes con Registro
+
+
+
+Bitácora:
+
+
+Pacientes:
+
+
+
+Control:
+
+
+
+
+Psicología:
+
+
+
+
+
+
+___________________________________________________________________________________________________________________________
+
+Pacientes
+Registrar los pacientes de la clínicas - 
+
+Funcionalidades:
+
+1-Pre Registro
+2-Registrar paciente
+3-Registrar proceso 
+4-Visualizar pacientes 
+5-Editar paciente 
+
+
+1-Pre Registro:
+Flujo de pre registro Datos:(nombre completo , edad , dirección y estado civil , nombre del solicitante, fecha solicitud , Estatus )
+
+2-Registristro completo de paciente:
+Captura los datos del paciente generales (Nombre , edad , Municipio , teléfono , CURP, fecha de nacimiento , lugar de nacimiento, escolaridad , estado civil, domicilio, sexo , Nacionalidad, alergias , padecimientos , fecha y hora de llegada )
+
+3-Registrar proceso: 
+Datos de Persona Responsable:(Nombre del solicitante de tratamiento , teléfono , dirección) 
+
+4-Lista de pacientes
+(nombre del paciente , edad , municipio , tiempo que lleva internado, Estado de cuenta )
+
+5 Editar paciente 
+( Visualizar todos los datos del paciente )
+( Terminar Procesos de Paciente ) (fecha y hora)
+( Ver estado de Cuenta De pagos ) (Pagos: análisis, traslado , semana , inscripción , Tienda , corte, Convivio)
+( Editar información del paciente: ( Nombre , Edad , Municipio , Pagos etc) 
+( Cosa que no se puede Editar: (Expediente , fecha en general )
+( Agregar Nuevo proceso: (datos de paciente , Datos de persona Responsable )
+
+
+___________________________________________________________________________________________________________________________
+
+Datos generales.
+
+Datos del paciente: Nombre , Edad , Dirección , Estado civil , Nombre del solicitante , fecha y hora ingreso , lugar de nacimiento, Escolaridad , sexo , Nacionalidad , Alergias , padecimientos, Incidentes ) 
+
+Datos de la persona Responsable: Nombre , Dirección y Teléfono
+
+Datos de Pagos: Fecha de pago , Importe , (Concepto: análisis, traslado , semana , inscripción , Tienda , corte, Convivio) 
+___________________________________________________________________________________________________________________________
+
+Vinculación - PROCESO DE FENIX 
+Es proceso que hace el usuario antes de llegar ala clínicas y ser paciente 
+
+1-Llamada - contacto de la persona 
+2-Solitud de traslado e ingreso 
+3-Solicitud de datos personales a familiar 
+4-Notificacion AEI (nombre completo , edad , dirección y estado civil , nombre del solicitante ) Por correo electrónico 
+5-LLegada de Usuario - Cuando llega ala clínicas y se hace paciente 
+6-Fase de pre Registro
+___________________________________________________________________________________________________________________________
